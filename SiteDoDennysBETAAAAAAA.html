@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<title>Dennys Pistoni Gomes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('img/Capturar.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("img/Capturar.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("img/Capturar.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black" id="myNavbar" >
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SOBRE</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTATO</a>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTATO</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Dennys <span class="w3-hide-small">Pistoni</span> Gomes</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">SOBRE O SITE E UM POUCO SOBRE MIM</h3>
+  <p class="w3-center"><em>Realmente não sei o que escrever aqui...</em></p>
+  <p>Eu criei esse site para promover meus trabalhos e pra ter um site, já que eu tinha curiosidade em ter algo assim pra mim mesmo.
+  Resolvi deixar o Site básico, porém me esforcei um pouco para deixar ele no mínimo Legal"zinho" , espero que gostem e sejam bem vindos ao meu Site...
+  </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Dennys Pistoni Gomes</b></p><br>
+      <img src="img/dnao.png" class="w3-round w3-image" alt="Photo of Me" width="auto" height="auto">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Estudante no curso superior em Análise e Desenvolvimento de Sistemas na Fatec Americana e formado em Técnico em Informática(Ênfase em Programação), com diversos certificados na área de TI... Busco aprimorar e desenvolver minhas técnicas de desenvolvimento através de novas experiências, além de botar em prática meu hobby em Design Gráfico via Photoshop; Falando em Hobbies, os meus são: Ler mangás e HQs, assistir animes e séries, MEMES, escutar música(a maioria dos tipos), cinema, vasculhar sites, e o mais importante importantíssimo de todos... JOGAR MUITOOOOOOOOOOOOOOOOOOOOOOOOO, ahhh e eu já disse que gosto de MEMES ???</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Eu Sei "Brincar" com:</p>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>C#/ASP.Net/VBA</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-camera"></i>Photoshop</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">10000000+</span><br>
+    Linhas de código.
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">10</span><br>
+    Projetos Finalizados.
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">40+</span><br>
+    "Artes" publicadas.
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">9000+</span><br>
+    Poder de luta do Kakaroto.
+  </div>
+</div>
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTATO</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Contato</h3>
+  <p class="w3-center"><em>Entre em contato Comigo!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <a>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Piracicaba, SP<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: dennys_spfc@hotmail.com<br>
+    <i class="fa fa-facebook-official fa-fw w3-hover-text-black w3-hover-opacity w3-xlarge w3-margin-right"></i> Facebook: em breve<br>
+    <i class="fa fa-instagram fa-fw w3-hover-text-black w3-hover-opacity w3-xlarge w3-margin-right"></i> Instagram: @dennyspg<br>
+    <i class="fa fa-linkedin fa-fw w3-hover-text-black w3-hover-opacity w3-xlarge w3-margin-right"></i> LinkedIn: <a href="https://www.linkedin.com/in/dennys-pistoni-gomes-b9087192/" style="text-decoration: none">Dennys Pistoni Gomes</a><br>
+      </div>
+      <p class="w3-center"><em>Ou se Preferir...</em></p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Nome" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> Enviar Mensagem
+        </button>
+      </form>
+    </div>
+  </div>
+</a>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Para o Topo</a>
+  <div class="w3-xlarge w3-section">
+  </div>Dennys Pistoni Gomes - 2018
+</footer>
+ 
+<!-- Add Google Maps -->
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-black";
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+</body>
+</html>
